@@ -202,7 +202,9 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
-
-
+    #skillContainer{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
 }
 
