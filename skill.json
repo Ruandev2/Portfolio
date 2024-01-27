@@ -1,0 +1,37 @@
+[
+    {
+        "nomeSkill": "HTML",
+        "url":"assets/skills/html.png",
+        "description":"Intermediario"
+        
+    },
+    {
+        "nomeSkill": "JavaScript",
+        "url":"assets/skills/js.png",
+        "description":"Intermediario"
+    },   
+    {
+        "nomeSkill": "CSS",
+        "url":"assets/skills/css.png",
+        "description":"Intermediario"
+        
+    },
+    {
+        "nomeSkill": "REACT",
+        "url":"assets/skills/react.png",
+        "description":"Intermediario"
+        
+    },
+    {
+        "nomeSkill": "Angular",
+        "url":"assets/skills/angular.png",
+        "description":"Basico"
+        
+    },
+    {
+        "nomeSkill": "GitHub",
+        "url":"assets/skills/github.png",
+        "description":"Intermediario"
+        
+    }
+]

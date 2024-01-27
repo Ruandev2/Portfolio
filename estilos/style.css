@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+/* Variaveis de Css */
+:root {
+    --cor-primaria:#000;
+    --cor-secudaria:#f6f6f6;
+    --cor-tercearia:#22D4FD;
+    --cor-quartenaria:#af43ca;
+    --cor-quintaria:#8a48d0;
+    --cor-sextaria:#470857;
+}
+/* reset pagina */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+}
+/* corpo da pagina */
+body {
+    height:100%;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secudaria);  
+}
+/* Navbar menus */
+.cabecalho {
+    padding: 2% 0  0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu_link {
+   text-decoration: none;
+   font-family: "Oswald", sans-serif;
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: var(--cor-secudaria);
+}
+
+.cabecalho__menu_link:hover {
+    color: var(--cor-quartenaria);
+}
+/* elemento pai da pagina */
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: "Goblin One", serif;
+}
+
+.apresentacao__conteudo:hover {
+   border: 2px solid var(--cor-quintaria);
+}
+
+
+.apresentacao__conteudo_titulo{
+    font-size: 2.25rem;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.apresentacao__conteudo_texto {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;;
+}
+
+.titulo-destaque {
+    color: var(--cor-tercearia);  
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 12px;
+}
+
+.apresentacao__links_subtitulo {
+    font-family:"Open Sans", sans-serif ;
+    font-weight: 400;
+    font-size: 1.5rem;
+    
+}
+
+.apresentacao__links_link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: var(--cor-secudaria);
+    border: 2px solid var(--cor-quintaria);
+  
+}
+
+.apresentacao__links_link:hover{
+    background: var(--cor-quartenaria);
+}
+
+.apresentacao__imagem {
+    width: 30%;
+    border-radius: 5%;
+}
+.apresentacao__imagem:hover {
+    padding: 2px;
+    border: 2px solid var(--cor-quintaria);
+
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 14px;
+    font-family:"Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: var(--cor-sextaria);
+}
+#skillContainer{
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 300px;
+    height: 300px;
+}
+.skill img{
+  background-color: var(--cor-sextaria);
+  border-radius: 5%; 
+  width: 150px; 
+  height: 150px; 
+  overflow: hidden; 
+  position: relative; 
+}
+.skill:hover {
+    border: 2px solid var(--cor-quintaria);
+
+}
+#projetosContainer  {
+    padding: 8% 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    text-align: center;      
+}
+
+
+
+
+.projeto img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;   
+}
+
+.projeto:hover{
+    border: 2px solid var(--cor-quintaria);
+
+}
+
+@media(max-width:1200px){
+    
+    .cabecalho {
+        padding:5%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+         width: auto;
+    }
+
+
+}
+

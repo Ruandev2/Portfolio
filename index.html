@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Potfólio</title>
+</head>
+<body>
+      <header class="cabecalho">
+           <nav class="cabecalho__menu">
+                <a class="cabecalho__menu_link" href="/index.html">Home</a>
+             <a class="cabecalho__menu_link" href="/about.html">Sobre Mim</a>
+             <a class="cabecalho__menu_link" href="/skills.html">Habilidades</a>
+             <a class="cabecalho__menu_link" href="/project.html">Projetos</a>
+           </nav>
+      </header>
+    <main class="apresentacao" >
+        <section class="apresentacao__conteudo"  >
+            <!-- Titulo do Projeto -->
+            <h1 class="apresentacao__conteudo_titulo"  id="mensagem">Eleve seu negócio digital a outro nivel<strong class="titulo-destaque"> com front-end de qualidade!</strong></h1>
+            <!-- Paragrafo do Projeto -->
+            <p class="apresentacao__conteudo_texto"  id="mensagem">Olá Sou Ruan Rodrigues dos Santos , desenvolvedor Front-endcom especialidade em React,HTML e CSS. Ajudo pequenos negociose designes a colocarem em prática boas ideias.Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links_subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links_link" href="https://www.linkedin.com/in/ruan-rodriguesdev/" target="_blank">
+                   <img src="./assets/img/linkedin.png" alt="" srcset="">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links_link" href="https://github.com/Ruandev2" target="_blank">
+                   <img src="./assets/img/github.png" alt="" srcset="">
+                    Github
+                </a>
+                <a  class="apresentacao__links_link" onclick="dowCurriculo()">
+                    <img src="./assets/img/curriculo.png" alt="">
+                    Baixar Curriculo
+                </a>
+               
+            </div>
+         </section>
+         <!-- Imagem do Perfil -->
+            <img class="apresentacao__imagem" src="/assets/img/perfil.png" alt="Foto de Ruan desenvolvedor">     
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer class="rodape">
+        <p>desenvolvedo por Ruan Rodrigues @2024</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

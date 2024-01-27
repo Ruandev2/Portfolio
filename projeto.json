@@ -1,0 +1,37 @@
+[
+    {
+        "nomeProjeto": "Decodificador Texto",
+        "url":"/assets/projetos/desafio.png",
+        "description":"Projeto criado na Plataforma da Alura um Decodificador Texto ele Critografa e Descritografa",
+        "urlSate": "https://decodificador-texto-alpha.vercel.app/"
+        
+    },
+    {
+        "nomeProjeto": "Projeto Angula Blog",
+        "url":"/assets/projetos/angulablog.png",
+        "description":"Projeto criado na Plataforma da Dio ",
+        "urlSate": "https://angular-blog-silk.vercel.app/"
+        
+    },
+    {
+        "nomeProjeto": "Projeto Buzz-Feed ",
+        "url":"/assets/projetos/buzzfeed.png",
+        "description":"Projeto criado na Plataforma da Dio para ferificar qual seria sua constelaçao",
+        "urlSate": "https://angular-blog-silk.vercel.app/"
+        
+    },
+    {
+        "nomeProjeto": "Projeto Numero-Secreto",
+        "url":"/assets/projetos/numeroSecreto.png",
+        "description":"Projeto criado na Plataforma da Alura para descobrir gual é seu numero secreto gerado aleatoriamente",
+        "urlSate": "https://jogo-numero-secreto-nu-wheat.vercel.app/"
+        
+    },
+    {
+        "nomeProjeto": "Projeto Pokedex",
+        "url":"/assets/projetos/pokedex.png",
+        "description":"Projeto criado na Plataforma da Dio criado com uma api de Pokemon que faz a requisição dos pokemons",
+        "urlSate": "https://ruandev2.github.io/js-developer-pokedex/"
+        
+    }
+]
