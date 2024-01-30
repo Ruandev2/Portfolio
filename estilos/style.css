@@ -185,7 +185,11 @@ body {
 }
 
 @media(max-width:1200px){
-    
+    cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
     .cabecalho {
         padding:5%;
     }
@@ -209,6 +213,11 @@ body {
 
 @media(max-width:600px){
     
+    cabecalho__menu {
+    display: flex;
+    gap: 80px;
+   }
+
     .cabecalho {
         padding:5%;
     }
