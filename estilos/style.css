@@ -199,20 +199,6 @@ body {
     width: 440px;
     height: 400px;
    }
-
-   .projeto img{
-    width: 400px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 15px;   
-   }
-
-   .projeto:hover{
-    border: 2px solid var(--cor-quintaria);
-
-     }
-
-
 }
 
 @media(max-width:1900px){
@@ -247,9 +233,6 @@ body {
         width: 440px;
         height: 400px;
     }
-
-
-
 }
 
 @media(max-width:1600px){
@@ -279,8 +262,6 @@ body {
         height: auto;
 
     }
-
-
 }
 
 
@@ -395,21 +376,6 @@ body {
         flex-direction: column-reverse;
         width: auto;
         height: auto;
-    }
-
-    .projeto img{
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        object-fit: cover;
-        border-radius: 15px;   
-    }
-
-    .projeto:hover{
-    border: 2px solid var(--cor-quintaria);
-
     }
 }
 
