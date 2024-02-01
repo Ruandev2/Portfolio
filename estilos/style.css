@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
 /* Variaveis de Css */
 :root {
     --cor-primaria:#000;
@@ -25,12 +27,12 @@ body {
 }
 /* Navbar menus */
 .cabecalho {
-     padding: 5% 0 0 15%;
+      padding:5% 0 0 15%;
 }
 
 .cabecalho__menu {
-    display: flex;
-    gap: 80px;
+    display: flex; /* Certificando-se de que os itens do menu são exibidos em linha */
+    gap: 28px;
 
 }
 
@@ -284,7 +286,7 @@ body {
 @media(max-width:480px){
     
     .cabecalho {
-        padding: 2% 0.15% ;
+       padding: 11% 22% 12% 22%;
     }
 
     .cabecalho__menu {
