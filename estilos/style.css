@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
-
 /* Variaveis de Css */
 :root {
     --cor-primaria:#000;
@@ -142,13 +140,13 @@ body {
     background-color: var(--cor-sextaria);
 }
 #skillContainer{
-    padding: 5% 5%;
+    padding: 2% 0 0 12%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-    width: 300px;
-    height: 300px;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 440px;
+    height: 400px;
 }
 .skill img{
   background-color: var(--cor-sextaria);
@@ -182,9 +180,40 @@ body {
 
 .projeto:hover{
     border: 2px solid var(--cor-quintaria);
+
 }
 
+/* Area de resposividade do Projeto */
+@media(max-width:2200px){
+    
+  .projeto img {
+    padding:  5%; 
+    gap: 15px;  
+   }
+   #skillContainer{ 
+    padding: 9% 0 32%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 440px;
+    height: 400px;
+   }
 
+   .projeto img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;   
+   }
+
+   .projeto:hover{
+    border: 2px solid var(--cor-quintaria);
+
+     }
+
+
+}
 
 @media(max-width:1900px){
     
@@ -204,6 +233,23 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
+
+    .projeto img {
+        padding:  5%; 
+        gap: 15px;  
+    }
+    #skillContainer{ 
+        padding: 9% 0 32%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 25px;
+        width: 440px;
+        height: 400px;
+    }
+
+
+
 }
 
 @media(max-width:1600px){
@@ -224,7 +270,19 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
+
+    #skillContainer {
+        padding: 2% 0 0 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;
+
+    }
+
+
 }
+
 
 @media(max-width:1200px){
     
@@ -243,6 +301,16 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
+
+    #skillContainer{
+        padding: 2% 0 0 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;
+    }
+
+
 }
 
 @media(max-width:992px){
@@ -262,6 +330,16 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
+
+    #skillContainer {
+    padding: 15% 0 0 15%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    }
+
+
 }
 
 @media(max-width:768px){
@@ -281,6 +359,15 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
+    #skillContainer{
+    padding: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+    height: auto;
+    }
+
+
 }
 
 @media(max-width:480px){
@@ -301,5 +388,30 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
+
+    #skillContainer{
+        padding: 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;
+    }
+
+    .projeto img{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        object-fit: cover;
+        border-radius: 15px;   
+    }
+
+    .projeto:hover{
+    border: 2px solid var(--cor-quintaria);
+
+    }
 }
+
+
 
