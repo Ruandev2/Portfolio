@@ -139,14 +139,14 @@ body {
     font-weight: 400;
     background-color: var(--cor-sextaria);
 }
- #skillContainer  .skill,img{
+ #skillContainer  .skill{
     display: inline-block;
     padding: 10px;
     gap: 65px;
    
 
 }
- #skillContainer .skill, img{
+ #skillContainer .skill{
   /* background-color: var(--cor-sextaria); */
   border-radius: 5%; 
   width: 150px; 
@@ -221,7 +221,7 @@ body {
         padding:  5%; 
         gap: 15px;  
     }
-    #skillContainer .skill,img { 
+    #skillContainer .skill{ 
         display: inline-block;
     
         gap: 25px;
@@ -247,7 +247,7 @@ body {
          width: auto;
     }
 
-    #skillContainer .skill,img { 
+    #skillContainer .skill { 
         display: inline-block;
     
         gap: 25px;
@@ -273,7 +273,7 @@ body {
          width: auto;
     }
 
-     #skillContainer .skill,img { 
+     #skillContainer .skill { 
         display: inline-block;
     
         gap: 25px;
@@ -299,7 +299,7 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
-  #skillContainer .skill,img { 
+  #skillContainer .skill{ 
         display: inline-block;
     
         gap: 25px;
@@ -325,7 +325,7 @@ body {
     .apresentacao__conteudo {
          width: auto;
     }
-    #skillContainer .skill,img { 
+    #skillContainer .skill{ 
         display: inline-block;
     
         gap: 25px;
@@ -353,7 +353,7 @@ body {
          width: auto;
     }
 
-    #skillContainer .skill,img { 
+    #skillContainer .skill{ 
         display: inline-block;
     
         gap: 25px;
