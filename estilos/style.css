@@ -188,10 +188,14 @@ body {
     padding:  5%; 
     gap: 15px;  
    }
-   #skillContainer .skill,img { 
-        display: inline-block;
-        gap: 25px;
-    } 
+   #skillContainer h3 img p{ 
+    padding: 9% 0 32%;
+    display: inline-block;
+  
+    gap: 25px;
+    width: 440px;
+    height: 400px;
+   }
 }
 
 @media(max-width:1900px){
@@ -219,6 +223,7 @@ body {
     }
     #skillContainer .skill,img { 
         display: inline-block;
+    
         gap: 25px;
     }
 }
@@ -244,6 +249,7 @@ body {
 
     #skillContainer .skill,img { 
         display: inline-block;
+    
         gap: 25px;
     }
 }
@@ -269,6 +275,7 @@ body {
 
      #skillContainer .skill,img { 
         display: inline-block;
+    
         gap: 25px;
     }
 
@@ -294,6 +301,7 @@ body {
     }
   #skillContainer .skill,img { 
         display: inline-block;
+    
         gap: 25px;
     }
 
@@ -319,6 +327,7 @@ body {
     }
     #skillContainer .skill,img { 
         display: inline-block;
+    
         gap: 25px;
     }
 
@@ -346,6 +355,7 @@ body {
 
     #skillContainer .skill,img { 
         display: inline-block;
+    
         gap: 25px;
     }
 }
